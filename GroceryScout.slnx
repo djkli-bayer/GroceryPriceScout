@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/GroceryScout.Api/GroceryScout.Api.csproj" />
+    <Project Path="src/GroceryScout.Core/GroceryScout.Core.csproj" />
+    <Project Path="src/GroceryScout.Data/GroceryScout.Data.csproj" />
+    <Project Path="src/GroceryScout.Llm/GroceryScout.Llm.csproj" />
+    <Project Path="src/GroceryScout.Providers/GroceryScout.Providers.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/GroceryScout.Tests/GroceryScout.Tests.csproj" />
+  </Folder>
+  <Folder Name="/tools/">
+    <Project Path="tools/SpikeRunner/SpikeRunner.csproj" />
+  </Folder>
+</Solution>

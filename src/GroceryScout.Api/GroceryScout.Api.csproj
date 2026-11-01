@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\GroceryScout.Core\GroceryScout.Core.csproj" />
+    <ProjectReference Include="..\GroceryScout.Providers\GroceryScout.Providers.csproj" />
+    <ProjectReference Include="..\GroceryScout.Llm\GroceryScout.Llm.csproj" />
+    <ProjectReference Include="..\GroceryScout.Data\GroceryScout.Data.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>
